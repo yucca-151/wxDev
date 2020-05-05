@@ -1,0 +1,65 @@
+<scroll-view class="content-info" scroll-y>
+	<swiper
+	 class="content-info-slide"
+	 indicator-dots
+	 indicator-color="rgba(255,255,255,.5)"
+	 autoplay
+	 circular
+	>
+		<swiper-item>
+			<image src="https://imgessl.kugou.com/commendpic/20200505/20200505001325885442.jpg" />
+		</swiper-item>
+		<swiper-item>
+			<image src="https://imgessl.kugou.com/commendpic/20200505/20200505001423311111.jpg" />
+		</swiper-item>
+		<swiper-item>
+			<image src="https://imgessl.kugou.com/commendpic/20200505/20200505001702200173.jpg" />
+		</swiper-item>
+	</swiper>
+	<!--功能按钮-->
+	<view class="content-info-portal">
+		<view>
+			<image src="https://imgessl.kugou.com/v2/rank_cover/04b10ec0bb3d8dfdc2b6cf0d30e0ebd3.jpg_240x240.jpg" />
+			<text>飙升榜</text>
+		</view>
+		<view>
+			<image src="https://imgessl.kugou.com/v2/rank_cover/bc23a80bf7a2e9179460ed2b6e384849.jpg_240x240.jpg" />
+			<text>T500</text>
+		</view>
+		<view>
+			<image src="https://imgessl.kugou.com/v2/rank_cover/47e76f9757c6bbb670630b4671961759.jpg_240x240.jpg" />
+			<text>网络红歌榜</text>
+		</view>
+	</view>
+	<!--热门音乐-->
+	<view class="content-info-list">
+		<view class="list-title">精选歌单</view>
+		<view class="list-inner">
+			<view class="list-item">
+				<image src="https://imgessl.kugou.com/soft/collection/480/20200416/20200416163225901881.jpg" />
+				<view>每周推荐歌曲</view>
+			</view>
+			<view class="list-item">
+				<image src="https://imgessl.kugou.com/soft/collection/150/20200505/20200505131336677058.jpg" />
+				<view>做更强大的自己</view>
+			</view>
+			<view class="list-item">
+				<image src="https://imgessl.kugou.com/soft/collection/150/20200218/20200218165806374348.jpg" />
+				<view>肥仔快乐水</view>
+			</view>
+			<view class="list-item">
+				<image src="https://imgessl.kugou.com/custom/150/20200422/20200422081748284259.jpg" />
+				<view>疗伤电台</view>
+			</view>
+			<view class="list-item">
+				<image src="https://imgessl.kugou.com/custom/150/20200420/20200420002034915010.jpg" />
+				<view>五一宅家！听听轻快华语也不错</view>
+			</view>
+			<view class="list-item">
+				<image src="https://imgessl.kugou.com/custom/150/20200419/20200419133435615938.jpg" />
+				<view>回忆向｜我们都败给了那该死的思念</view>
+			</view>
+		</view>
+	</view>
+</scroll-view>
+
